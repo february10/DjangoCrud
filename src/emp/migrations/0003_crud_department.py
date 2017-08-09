@@ -9,7 +9,7 @@ import django.utils.datetime_safe
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('shortener', '0002_auto_20170808_0812'),
+        ('emp', '0002_auto_20170808_0812'),
     ]
 
     operations = [

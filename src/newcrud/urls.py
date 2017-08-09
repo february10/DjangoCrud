@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from emp.views import app_crud
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^post/$', app_crud, name="App_Crud"),
+
 ]

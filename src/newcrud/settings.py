@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #new app
-    'shortener',
+    'emp',
 ]
 
 MIDDLEWARE = [
